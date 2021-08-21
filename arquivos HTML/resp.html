@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respostas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../arquivosCSS/resp.css">
+    
+   
+</head>
+<body>
+  <header>
+      <container id="header"></container>
+  </header>
+    <section class="quiz">
+        <div id="question" clas="col-8 p-2">
+            <img src="" class="imagemPergunta" alt="">
+            <div class="card-body">
+              
+              <p id="card-text"></p>
+            <div id="opcoes" class="alternativas">
+              <button id = "altA" class="btn btn-primary"></button>
+              <button id = "altB" class="btn btn-secondary"></button>
+              <button id = "altC" class="btn btn-info"></button>
+              <button id = "altD" class="btn btn-warning"></button>
+            </div>
+              
+            </div>
+          </div>
+         
+        <div id="Resultados" class="col-4 p-2">
+          <div>
+            <h4>Sua pontuação é:  <span id="Score">0 </span></h4>
+          </div> 
+          <div class="alert alert-success hide" role="alert" id="cardResposta">
+            <h4 class="alert-heading">Resultados</h4>
+            <p id="resposta"></p>
+            <hr>
+            <p id="descResposta"class="card-img-top"></p>
+          </div>   
+          <img id="imagemResposta" class="col-12">
+          
+
+          <div id="Next">
+            <button onclick="nextQuestion"id="nextQuestion" class="btn btn-success mt-3">Proxima pergunta</button>
+          </div>
+          
+        </div>
+        
+        
+
+    </section>    
+    <script src="../arquivosJS/naveg.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    background-color: whitesmoke;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./barcoclaro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+
+}
+
+nav {
+    flex-direction: row;
+    align-content:space-between;
+    color: cornsilk;
+    border: 2px solid green;
+    
+}
+
+.nav-item {
+    color: honeydew;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(95, 58, 48);
+    font-weight: bolder;
+    text-align: center;
+   
+        
+}
+
+p {
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    width: 400px;
+    color: blanchedalmond;
+}
+button {
+    padding: 8px;
+    border-radius: 3rem;
+    border-color: rgb(92, 79, 209);
+    font-size: 50px;
+    
+
+}
+

@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    border: 2px solid green;
+}
+
+body{
+    background-size: 100vw;
+    opacity: 0.8;
+
+    
+    
+}
+
+.quiz {
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.Resultados {
+    border: 2px solid blue;
+    width: 50vw;
+}
+
+.mb-0 {
+    border: 2px solid red;
+    height: 50vw;
+}
+
+.hide {
+    display: none;
+}
+
+.imagemPergunta {
+    height: 350px;
+    
+}
