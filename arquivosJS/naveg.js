@@ -160,7 +160,7 @@ function checaResposta (resposta, correct, explicacao, imagemResposta) {
     contadorQuestao += 1
 
     if (contadorQuestao == 10) {
-        window.location.href="fim.html"
+        window.location.href="fim.html?pontuacao="+score
         const showFim = document.getElementById('scorefinal')
         const printFim = document.createElement('h3');
         printFim.innerText =  `Parabéns, ${playerName}, você completou o desafio e acumulou ${score} pontos. Agora você é um Capitão!`
